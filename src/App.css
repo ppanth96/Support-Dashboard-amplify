@@ -1,0 +1,88 @@
+html, .App, .body {
+  background-color: #143250;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .05rem;
+  height: 117vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #D9EDFB;
+}
+
+.z-depth-2{
+  background-color: rgba(15,41,68,.95);
+  height: inherit;
+
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.page {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+}
+.page > div {
+  padding: 20px;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+
+#main {
+  background: #143250;
+}
+#side {
+  background: rgba(15,41,68,.95);
+  -webkit-flex: 0 0 500px;
+  -moz-flex: 0 0 500px;
+  flex: 0 0 620px;
+  height: 125vh;
+}
+
+/* .performance{
+  margin-top: -1%;
+}
+
+button {
+  float: right;
+  border: unset;
+  color: #ff8c3c;
+  opacity: 0.75;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .received-list > li, .open-list > li {
+    border-right: 0px;
+}
+.row .col.m4 {
+  width: 33.3333333333%;
+  margin-left: auto;
+  left: auto;
+  height: 154vh;
+  right: auto;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+
+}
+@media (min-width: 1200px) {
+  .row .col.l9 {
+    width: 70%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+
+}
+.row .col.l3 {
+  width: 30%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  height: 141vh;
+}
+} */

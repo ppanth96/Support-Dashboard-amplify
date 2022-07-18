@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/channel-status": {
+      "name": "/channel-status",
+      "lambdaFunction": "dashboardStatus",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

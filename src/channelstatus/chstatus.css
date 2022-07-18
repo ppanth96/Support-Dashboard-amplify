@@ -1,0 +1,121 @@
+ul {
+  list-style: none;
+  justify-content: space-between;
+  margin-left: -1px;
+  color: #fff;
+  font-weight: lighter;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.benchmarks-bar {
+  height: 106vh;
+}
+
+.received-list > li,
+.open-list > li {
+  display: inline-block;
+  border-right: 3px solid #ccc;
+  padding: 0 32px 0 32px;
+  height: 107px;
+  border-color: #2d5d7e;
+}
+
+li:last-child {
+  border: 0;
+}
+
+.bench-header {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.today-value,
+.thirtyday-value {
+  font-size: 45px;
+  margin-top: 10%;
+  text-align: center;
+}
+.today,
+.thirtyday {
+  color: #ff8c3c;
+  opacity: 0.75;
+}
+
+.fullscreen-enabled .today {
+  font-size: 1.57vw;
+  /* font-size: 20px; */
+  margin-left: -25%;
+  margin-top: -1%;
+  color: #ff8c3c;
+  opacity: 0.75;
+}
+
+.fullscreen-enabled .thirtyday {
+  /* font-size: 20px; */
+  font-size: 1.57vw;
+  margin-right: -25%;
+  color: #ff8c3c;
+  opacity: 0.75;
+}
+
+.fullscreen-enabled .today-value {
+  margin-top: -25%;
+  font-size: 1.75vw;
+  /* font-size: 45px; */
+  margin-left: -25%;
+}
+
+.fullscreen-enabled .thirtyday-value {
+  margin-top: -20%;
+  font-size: 1.75vw;
+  /* font-size: 45px; */
+  margin-right: -25%;
+}
+
+.tickets-open {
+  margin-top: 15%;
+}
+
+.chats-open {
+  margin-top: 20%;
+}
+
+.vms-open {
+  margin-top: 20%;
+}
+
+div.row {
+  margin-bottom: 0;
+}
+
+.fullscreen-enabled .tickets-received {
+  margin-top: 30%;
+}
+
+.fullscreen-enabled .tickets-open {
+  margin-top: 40%;
+}
+
+.operation-status {
+  color: #ff8c3c;
+}
+
+.status {
+  opacity: 0.75;
+  color: #d9edfb;
+  font-size: 15px;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.platform {
+  color: #fff;
+}
+
+.fullscreen-enabled .credit {
+  margin-top: 15%;
+  margin-left: 5%;
+  font-size: 1.3vw;
+}
